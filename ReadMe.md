@@ -40,3 +40,6 @@ This project provides a basic template for building a stock price prediction mod
 - This project can be extended to predict other stock market variables, such as trading volume or volatility.
 - The RNN model can be replaced with other types of neural networks, such as Long Short-Term Memory (LSTM) networks.
 - The model can be used to generate real-time predictions by feeding it the latest stock price data.
+
+## SETUP Local environment
+

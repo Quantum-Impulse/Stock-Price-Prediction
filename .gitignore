@@ -1,0 +1,16 @@
+# This is a sample gitignore file for a python venv
+
+# Ignore the venv directory itself
+.venv/
+
+# Ignore the __pycache__ directory
+__pycache__/
+
+# Ignore the .eggs directory
+.eggs/
+
+# Ignore the build directory
+build/
+
+# Ignore the dist directory
+dist/
