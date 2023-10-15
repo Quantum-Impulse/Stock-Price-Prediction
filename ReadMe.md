@@ -15,6 +15,7 @@ The following Python libraries are needed for this project:
 
 The stock price dataset can be obtained from a variety of sources, such as Yahoo Finance or Google Finance.
 
+ - The file I'm using is Yahoo for the Nasdaq. Oct, 15 2022 - Oct 15, 2023
 
 ## Model Building and Training
 
@@ -43,3 +44,4 @@ This project provides a basic template for building a stock price prediction mod
 
 ## SETUP Local environment
 
+- setup a python venv enviroment and install the requirment.txt file
