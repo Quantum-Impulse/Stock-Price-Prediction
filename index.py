@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Read the data, print the dimensions of the data, print the 7 random rows
-# data = pd.read_csv('./s_p_stock/NDAQ.csv')
+data = pd.read_csv('./s_p_stock/NDAQ.csv')
 # print(data.shape)
 # print(data.sample(7))
 
