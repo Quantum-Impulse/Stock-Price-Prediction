@@ -10,16 +10,15 @@ from datetime import datetime
 import warnings
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv('./s_p_stock/all_stocks_5yr.csv')
+data = pd.read_csv('./s_p_stock/NDAQ.csv')
 print(data.shape)
 print(data.sample(7))
 
 data.info()
 
-data['date'] = pd.to_datetime(data['date'])
+data['date'] = pd.to_datetime(data['Date'])
 data.info()
 
-data['date'] = pd.to_datetime(data['date'])
 # date vs open
 # date vs close
 plt.figure(figsize=(15, 8))
