@@ -3,6 +3,9 @@
 # Ignore the venv directory itself
 .venv/
 
+# Ignore the venv directory contents
+env/
+
 # Ignore the __pycache__ directory
 __pycache__/
 

@@ -45,3 +45,11 @@ This project provides a basic template for building a stock price prediction mod
 ## SETUP Local environment
 
 - setup a python venv enviroment and install the requirment.txt file
+
+- python3.8 -m venv env
+
+- source env/Scripts/activate
+
+- pip install -r requirements.txt
+
+- deactivate
